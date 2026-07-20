@@ -1,6 +1,12 @@
-<!-- ... existing code ... -->
+<!DOCTYPE html>
+<html lang="tr" style="background-color: #000000 !important;">
+<head>
+    <!-- STREAMING_CHUNK: Applying ultimate pitch black styling and head configurations... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- GOOGLE ARAMA OPTİMİZASYONU (SEO) BAŞLIĞI -->
-    <title>TURKOMEN AUTO CLICKER - Resmi Web Sitesi (Sürüm 4.5)</title>
+    <title>TURKOMEN AUTO CLICKER - Resmi Web Sitesi</title>
     
     <!-- GOOGLE ARAMA MOTORU DOĞRULAMA KODU -->
     <meta name="google-site-verification" content="arWRr6xel-AOzGOFiqQJxSbAfCYYLkQshrRLp8R7Qa4" />
@@ -34,3 +40,168 @@
       }
     }
     </script>
+    
+    <!-- Sekme İkonu (Favicon) -->
+    <link rel="icon" type="image/x-icon" href="ikon.ico">
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brandRed: '#E60000',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Kesinlikle saf siyah arka plan garantisi */
+        html, body {
+            background-color: #000000 !important;
+            color: #ffffff !important;
+        }
+        /* İnce detaylar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #222222;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E60000;
+        }
+    </style>
+</head>
+<body class="bg-black text-white selection:bg-brandRed selection:text-white flex flex-col min-h-screen antialiased pb-12" style="background-color: #000000 !important;">
+
+    <!-- STREAMING_CHUNK: Building Header Section with brand icons... -->
+    <!-- HEADER SECTION -->
+    <header class="w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-start">
+        <div class="flex items-center gap-3">
+            <!-- Sol üstte hizalı ikon.ico görseli (Referans: image_a62963.png) -->
+            <img src="ikon.ico" 
+                 alt="TURKOMEN Logo İkonu" 
+                 class="w-8 h-8 md:w-9 md:h-9 object-contain"
+                 onerror="this.onerror=null; this.src='https://placehold.co/36x36/000000/E60000?text=T';">
+            
+            <div class="flex flex-col justify-center">
+                <div class="text-xl md:text-2xl font-black tracking-wider uppercase leading-none">
+                    <span class="text-brandRed">TURKOMEN</span> <span class="text-white">AUTO CLICKER</span>
+                </div>
+                <!-- Gri renkli 4.5 sürüm ibaresi -->
+                <span class="text-sm font-semibold text-gray-500 mt-1 tracking-widest leading-none">4.5</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- STREAMING_CHUNK: Generating Hero layout and branding... -->
+    <!-- HERO SECTION (CENTER CONTENT) -->
+    <main class="flex-grow flex flex-col items-center justify-center text-center px-4 py-8 md:py-12">
+        <div class="max-w-3xl w-full flex flex-col items-center">
+            
+            <!-- Ortadaki Logo (mainlogo.png - Transparan detaylar için kutu tasarımı kaldırıldı) -->
+            <div class="w-44 h-44 md:w-52 md:h-52 mb-8 flex items-center justify-center">
+                <img src="mainlogo.png" 
+                     alt="TURKOMEN AUTO CLICKER Logo" 
+                     class="max-w-full max-h-full object-contain"
+                     onerror="this.onerror=null; this.src='https://placehold.co/200x200/000000/E60000?text=LOGO';">
+            </div>
+
+            <!-- Ortadaki TURKOMEN AUTO CLICKER Başlığı -->
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tighter mb-4">
+                <span class="text-brandRed">TURKOMEN</span> <span class="text-white">AUTO CLICKER</span>
+            </h1>
+
+            <!-- Açıklama Metni -->
+            <p class="text-gray-400 max-w-lg mb-8 text-sm md:text-base leading-relaxed font-medium">
+                Süper hızlı tıklama motoru, modern ve sadeleştirilmiş kontrol paneli ile işlerinizi ve oyunlarınızı kolaylaştırın. Sadece çalıştırın ve hızın keyfini çıkarın.
+            </p>
+
+            <!-- İndir Butonu (Exe Dosyasını İndirir) -->
+            <div class="mb-12">
+                <a href="Turkomen Auto Clicker 4.5 Setup By TURKOMEN.exe" 
+                   download 
+                   class="inline-flex items-center gap-3 px-8 py-4 bg-brandRed hover:bg-red-700 text-white font-bold text-lg rounded-xl tracking-wider transition-all duration-150 transform active:scale-95 shadow-md">
+                    <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/>
+                    </svg>
+                    ŞİMDİ ÜCRETSİZ İNDİR
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- STREAMING_CHUNK: Displaying screenshots of the application in 9:16 layout... -->
+    <!-- UYGULAMADAN GÖRÜNTÜLER KISMI (SCREENSHOTS 9:16 GRID) -->
+    <section class="w-full max-w-7xl mx-auto px-6 py-12 border-t border-zinc-900">
+        
+        <div class="text-center mb-10">
+            <h3 class="text-2xl md:text-3xl font-extrabold tracking-tight text-white">
+                Uygulamadan Görüntüler
+            </h3>
+        </div>
+
+        <!-- 2x2 Grid Layout for 9:16 Portrait Aspect Ratio -->
+        <div class="grid grid-cols-2 gap-4 md:gap-8 max-w-2xl mx-auto">
+            
+            <!-- Görsel 1 -->
+            <div class="bg-zinc-950 border border-zinc-900 rounded-xl overflow-hidden group hover:border-zinc-800 transition-colors duration-200">
+                <div class="aspect-[9/16] w-full bg-zinc-900/30 flex items-center justify-center relative overflow-hidden">
+                    <img src="1.png" 
+                         alt="TURKOMEN Auto Clicker Arayüz Tasarımı 1" 
+                         class="w-full h-full object-cover"
+                         onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/111111/444444?text=9:16+Arayüz+1';">
+                </div>
+            </div>
+
+            <!-- Görsel 2 -->
+            <div class="bg-zinc-950 border border-zinc-900 rounded-xl overflow-hidden group hover:border-zinc-800 transition-colors duration-200">
+                <div class="aspect-[9/16] w-full bg-zinc-900/30 flex items-center justify-center relative overflow-hidden">
+                    <img src="2.png" 
+                         alt="TURKOMEN Auto Clicker Arayüz Tasarımı 2" 
+                         class="w-full h-full object-cover"
+                         onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/111111/444444?text=9:16+Arayüz+2';">
+                </div>
+            </div>
+
+            <!-- Görsel 3 -->
+            <div class="bg-zinc-950 border border-zinc-900 rounded-xl overflow-hidden group hover:border-zinc-800 transition-colors duration-200">
+                <div class="aspect-[9/16] w-full bg-zinc-900/30 flex items-center justify-center relative overflow-hidden">
+                    <img src="3.png" 
+                         alt="TURKOMEN Auto Clicker Arayüz Tasarımı 3" 
+                         class="w-full h-full object-cover"
+                         onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/111111/444444?text=9:16+Arayüz+3';">
+                </div>
+            </div>
+
+            <!-- Görsel 4 -->
+            <div class="bg-zinc-950 border border-zinc-900 rounded-xl overflow-hidden group hover:border-zinc-800 transition-colors duration-200">
+                <div class="aspect-[9/16] w-full bg-zinc-900/30 flex items-center justify-center relative overflow-hidden">
+                    <img src="4.png" 
+                         alt="TURKOMEN Auto Clicker Arayüz Tasarımı 4" 
+                         class="w-full h-full object-cover"
+                         onerror="this.onerror=null; this.src='https://placehold.co/1080x1920/111111/444444?text=9:16+Arayüz+4';">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
